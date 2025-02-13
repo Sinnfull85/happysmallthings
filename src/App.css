@@ -1,0 +1,24 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertikale Zentrierung */
+    align-items: center; /* Horizontale Zentrierung */
+    
+    width: 100vw;
+    text-align: center;
+}
+
+.open-button {
+  background-color: rgb(124, 18, 124);
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.open-button:hover {
+  background-color: darkviolet;
+}
+
